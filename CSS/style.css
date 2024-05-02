@@ -12,34 +12,35 @@ body {
     background-color: #e5e5e5;
 }
 
-/* Navbar */
+/* Top Navbar */
 #main_top-navbar {
-    height: 100px;
+    height: 90px;
     width: 100vw;
 }
 
 .navbar_logo {
-    width: 100px;
+    width: 75px;
 }
 
 #top_search-bar {
-    width: calc(100vw - 150px);
+    width: calc(100vw - 125px);
 }
 
 #bell-menu {
     width: 50px;
 }
 
-/* Header */
+/* Left Navbar */
 #main_left-navbar {
-    height: calc(100vh - 100px);
-    width: 100px;
-    background-color: #142a40;
+    height: calc(100vh - 90px);
+    width: 75px;
+    background-color: #051e34;
     align-self: flex-end;
+    background-image: url(../img/sidebar-bg.png);
 }
 
-/* Main */
+/* Main Central Section */
 
 main {
-    width: calc(100vw - 100px);
+    width: calc(100vw - 75px);
 }

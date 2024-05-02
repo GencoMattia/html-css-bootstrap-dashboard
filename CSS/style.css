@@ -12,6 +12,10 @@ body {
     background-color: #e5e5e5;
 }
 
+p {
+    vertical-align: middle;
+}
+
 /* Top Navbar */
 #main_top-navbar {
     height: 90px;
@@ -42,5 +46,10 @@ body {
 /* Main Central Section */
 
 main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#main_central {
     width: calc(100vw - 75px);
 }

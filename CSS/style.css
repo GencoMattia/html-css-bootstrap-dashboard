@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    font-family: "roboto, sans serif";
+    font-family: "Roboto", sans-serif;
 }
 
 .bg_light-grey {
@@ -19,6 +19,7 @@ body {
 
 p {
     vertical-align: middle;
+    margin: 0 !important; 
 }
 
 /* Top Navbar */
@@ -55,10 +56,6 @@ main {
     height: 100vh;
 }
 
-#main_central {
-    width: calc(100vw - 75px);
-}
-
 /* Blue Headband */
 
 #add-student-button {
@@ -70,4 +67,20 @@ main {
     border: none;
     background-color: transparent;
     color: white;
+}
+
+/* Upcoming Classes */
+
+#main_central {
+    width: calc(100vw - 75px);
+    height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.list-group-item p{
+    font-size: .7rem;
+}
+
+.class-avatar {
+    width: 25px;
 }

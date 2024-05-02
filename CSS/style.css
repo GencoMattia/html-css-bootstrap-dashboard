@@ -1,10 +1,45 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
 body {
     height: 100vh;
 }
 
+.bg_light-grey {
+    background-color: #e5e5e5;
+}
+
+/* Navbar */
+#top_navbar {
+    height: 100px;
+    width: 100vw;
+}
+
+.navbar_logo {
+    width: 100px;
+}
+
+#top_search-bar {
+    width: calc(100vw - 150px);
+}
+
+#bell-menu {
+    width: 50px;
+}
+
+/* Header */
 header {
     height: calc(100vh - 100px);
     width: 100px;
     background-color: #142a40;
     align-self: flex-end;
+}
+
+/* Main */
+
+main {
+    width: calc(100vw - 100px);
 }

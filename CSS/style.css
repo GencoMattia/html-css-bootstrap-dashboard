@@ -22,6 +22,10 @@ p {
     margin: 0 !important; 
 }
 
+.badge {
+    background-color: #165bba !important;
+}
+
 /* Top Navbar */
 #main_top-navbar {
     height: 90px;
@@ -63,9 +67,11 @@ main {
 
 /* Blue Headband */
 
-#add-student-button {
+#top_add-student-button {
     border: white solid 1px;
     background-color: transparent;
+    width: 40px;
+    height: 40px;
 }
 
 #app-button {

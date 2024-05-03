@@ -82,20 +82,20 @@
 
         <div id="main_central">
             <section class="central_info-headband container-fluid py-4 bg_light-blue text-white mb-4">
-                <nav class="navbar row navbar-expand-lg">
-                    <div class="central_new-student d-flex order-md-2 col-12 col-md-4 col-lg 2">
-                        <p>
+                <nav class="navbar row navbar-expand-lg align-items-start row-gap-3">
+                    <div class="central_new-student d-flex order-md-2 col-12 col-md-4 col-lg-2">
+                        <p class="pe-3">
                             Nuovo studente
                         </p>
-                        <button type="button" class="btn btn-outline-light">
+                        <button type="button" id="top_add-student-button" class="btn btn-outline-light">
                             <i class="fa-solid fa-plus"></i>
                         </button>
                     </div>
-                    <div class="central_boolean-app mb-3 order-md-0 col-12 col-md-4 col-lg 5">
+                    <div class="central_boolean-app mb-3 order-md-0 col-12 col-md-4 col-lg-6">
                         <a class="navbar-brand text-white fw-bold" href="#">Boolean</a>
-                        <p class="d-inline-block m-0">Piano Blaze</p>
+                        <p class="d-inline-block badge rounded-pill">Piano Blaze</p>
                         <div class="app-menu d-flex align-items-center">
-                            <p class="d-inline-block m-0">3 app</p>
+                            <p class="d-inline-block badge rounded-pill">3 app</p>
                             <i class="fa-solid fa-angles-right d-inline-block"></i>
                             <button id="app-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                 <span><i class="fa-solid fa-plus"></i></span>
@@ -103,29 +103,20 @@
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link badge rounded-pill" href="#">Boolean mobile app</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
+                                        <a class="nav-link badge rounded-pill" href="#">Boolean web app</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Pricing</a>
+                                        <a class="nav-link badge rounded-pill" href="#">Boolean blog app</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown link
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Boolean mobile app</a></li>
-                                            <li><a class="dropdown-item" href="#">Boolean web app</a></li>
-                                            <li><a class="dropdown-item" href="#">Boolean blog app</a></li>
-                                        </ul>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="central_online-students order-md-1 col-12 col-md-4 col-lg 3">
+                    <div class="central_online-students order-md-1 col-12 col-md-4 col-lg-4">
                         <p>
                             Studenti online negli ultimi 30 minuti
                         </p>

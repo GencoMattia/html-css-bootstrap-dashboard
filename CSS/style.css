@@ -36,6 +36,10 @@ p {
     width: calc(100vw - 125px);
 }
 
+#top_nav-buttons {
+    width: 100px;
+}
+
 #bell-menu {
     width: 50px;
 }
@@ -101,6 +105,10 @@ main {
     }
 
     #top_search-bar {
-        width: calc(100vw - 200px);
+        width: calc(100vw - 300px);
+    }
+
+    #bell-menu {
+        width: 50px;
     }
 }

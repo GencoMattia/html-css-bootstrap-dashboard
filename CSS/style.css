@@ -34,6 +34,7 @@ p {
 
 #top_search-bar {
     width: calc(100vw - 125px);
+    padding: 0 1rem;
 }
 
 #top_nav-buttons {

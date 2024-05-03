@@ -77,6 +77,10 @@ main {
     overflow: auto;
 }
 
+.upcoming-classes tr > th:not(:first-child) {
+    text-align: center;
+}
+
 .list-group-item p{
     font-size: .7rem;
 }

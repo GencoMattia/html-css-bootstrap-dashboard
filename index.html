@@ -22,12 +22,15 @@
 <body class="d-flex flex-wrap">
 
     <main class="d-flex flex-wrap">
-        <section id="main_top-navbar">
+        <section id="main_top-navbar" class="d-flex">
             <nav class="navbar bg-body-tertiary p-0">
                 <div class="container-fluid d-flex p-0">
                     <div class="navbar_logo">
-                        <a class="navbar-brand">
+                        <a id="top_logo-mobile" class="navbar-brand d-lg-none">
                             <img class="img-fluid" src="./img/mobile-logo.png" alt="mobile boolean logo">
+                        </a>
+                        <a id="top_logo-full" class="navbar-brand d-none d-lg-inline-block">
+                            <img class="img-fluid" src="./img/logo.svg" alt="full boolean logo">
                         </a>
                     </div>
                     <form id="top_search-bar" class="d-flex bg_light-grey" role="search">
@@ -65,7 +68,6 @@
         </section>
 
         <div id="main_central">
-
             <section class="central_info-headband container-fluid py-4 bg_light-blue text-white mb-4">
                 <nav class="navbar row navbar-expand-lg">
                     <div class="central_new-student d-flex order-md-2 col-12 col-md-4 col-lg 2">

@@ -84,3 +84,23 @@ main {
 .class-avatar {
     width: 25px;
 }
+
+
+/* Media Query per schermi da 992 in sù */
+@media screen and (min-width: 992px) {
+    #main_left-navbar {
+        width: 150px;
+    }
+
+    #main_central {
+        width: calc(100vw - 150px);
+    }
+
+    .navbar_logo {
+        width: 150px;
+    }
+
+    #top_search-bar {
+        width: calc(100vw - 200px);
+    }
+}

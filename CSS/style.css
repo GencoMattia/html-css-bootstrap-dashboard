@@ -80,6 +80,10 @@ main {
     color: white;
 }
 
+.upcoming-classes_small-column {
+    width: 7rem;
+}
+
 /* Upcoming Classes */
 
 #main_central {

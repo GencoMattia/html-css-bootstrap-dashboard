@@ -84,6 +84,10 @@ main {
     width: 7rem;
 }
 
+#new-students_off-canvas {
+    width: 100%;
+}
+
 /* Upcoming Classes */
 
 #main_central {
@@ -121,5 +125,9 @@ main {
 
     #bell-menu {
         width: 50px;
+    }
+
+    #new-students_off-canvas {
+        width: 45%;
     }
 }

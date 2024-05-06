@@ -92,7 +92,7 @@
                         </button>
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="new-students_off-canvas" aria-labelledby="new-students_off-canvasLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="new-students_off-canvasLabel">Offcanvas</h5>
+                                <h5 class="offcanvas-title" id="new-students_off-canvasLabel">Inserisci un nuovo studente</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
@@ -135,6 +135,9 @@
                                         <label for="inputZip" class="form-label">CAP</label>
                                         <input type="text" class="form-control" id="inputZip">
                                     </div>
+                                    <div class="input-group">
+                                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                    </div>
                                     <div class="col-12">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -143,8 +146,13 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    <div class="offcanvas-buttons col-12 d-flex">
+                                        <div>
+                                            <button type="submit" class="btn btn-primary me-2">Salva</button>
+                                        </div>
+                                        <div>
+                                            <button type="submit" class="btn btn-warning">Svuota</button>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
